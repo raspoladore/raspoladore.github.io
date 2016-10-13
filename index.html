@@ -6,7 +6,7 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
 <script src="dist/js/villa.min.js"></script>
 <link rel="stylesheet" href="dist/css/villa.min.css"/>
-<link rel="stylesheet" href="css/dbarjs.css"/>
+<link rel="stylesheet" href="dist/css/dbarjs.css"/>
 <!--[if lt IE 9]>
 <link rel="stylesheet" type="text/css" href="dist/css/material-colors.css"/>
 <link rel="stylesheet" type="text/css" href="dist/css/villa-cross.min.css"/>
@@ -96,7 +96,7 @@
 	}
 
 	.Profile-photo {
-		background-image: url("img/11236230_787489724680787_1126867192_n.jpg");
+		background-image: url("_src/img/11236230_787489724680787_1126867192_n.jpg");
 		/*background-image: url("img/d621e5b0-a929-49cb-8c34-977ea7ad21f0.jpg");*/
 		-webkit-background-size: cover;
 		background-size: cover;
@@ -116,7 +116,11 @@
 	@media (min-width: 48em) {
 
 		main {
-			background-color: #000000;
+			background: #000000 url("dist/img/photo-1421941629638-ded5fddb2300.jpeg") center;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
 			padding: 3em;
 		}
 
@@ -205,9 +209,10 @@
 
 		<div class="Social">
 
-			<a href="http://github.com/dbarjs"><span class="hfont-amber-a700"><span class="icon icon-github"></span></span></a>
-			<a href="http://fb.com/dbarjs"><span class="hfont-amber-a700"><span class="icon icon-facebook"></span></span></a>
-			<a href="http://instagram.com/dbarjs"><span class="hfont-amber-a700"><span class="icon icon-instagram"></span></span></a>
+			<a href="http://github.com/dbarjs" class="hfont-purple-a400"><span><span class="icon icon-github"></span></span></a>
+			<a href="http://fb.com/dbarjs" class="hfont-light-blue-a400"><span><span class="icon icon-facebook"></span></span></a>
+			<a href="http://instagram.com/dbarjs" class="hfont-amber-a700"><span><span class="icon icon-instagram"></span></span></a>
+			<!--<a href="http://instagram.com/dbarjs" class="hfont-amber-a700"><span>@dbarjs</span></a>-->
 
 		</div>
 
