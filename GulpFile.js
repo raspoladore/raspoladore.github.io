@@ -149,7 +149,7 @@ gulp.task('js-watch', ['js'], function () {
 gulp.task('resizePhotos', function () {
 	gulp.src(source.images.photos.location + source.images.photos.content)
 		.pipe(imageResize({
-			height : 960,
+			width : 1080,
 			upscale : false
 		}))
 		.pipe(gulp.dest(dist.images.location));
